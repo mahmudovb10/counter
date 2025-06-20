@@ -1,3 +1,6 @@
+body {
+  background-color: rgb(223, 226, 229);
+}
 .text {
   display: flex;
   justify-content: center;
@@ -15,10 +18,10 @@
 #minus {
   width: 50px;
   height: 30px;
-  border: 1px solid blue;
+  border: 1px solid white;
   border-radius: 7px;
-  background-color: greenyellow;
-  color: red;
+  background-color: rgb(117, 117, 117);
+  color: rgb(255, 255, 255);
   font-size: 1.5rem;
 }
 .count {
