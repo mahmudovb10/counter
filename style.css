@@ -1,0 +1,36 @@
+.text {
+  display: flex;
+  justify-content: center;
+}
+.item {
+  display: flex;
+  justify-content: center;
+}
+.counter__btn {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+#plus,
+#minus {
+  width: 50px;
+  height: 30px;
+  border: 1px solid blue;
+  border-radius: 7px;
+  background-color: greenyellow;
+  color: red;
+  font-size: 1.5rem;
+}
+.count {
+  display: flex;
+  justify-content: center;
+}
+.green {
+  color: green;
+}
+.yellow {
+  color: yellow;
+}
+.red {
+  color: red;
+}
