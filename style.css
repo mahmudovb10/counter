@@ -1,19 +1,6 @@
 body {
   background-color: rgb(223, 226, 229);
 }
-.text {
-  display: flex;
-  justify-content: center;
-}
-.item {
-  display: flex;
-  justify-content: center;
-}
-.counter__btn {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
 #plus,
 #minus {
   width: 50px;
@@ -24,11 +11,30 @@ body {
   color: rgb(255, 255, 255);
   font-size: 1.5rem;
 }
+#reset {
+  width: 50px;
+  height: 30px;
+  border: 1px solid rgb(117, 117, 117);
+  border-radius: 7px;
+  background-color: rgb(117, 117, 117);
+  color: rgb(255, 255, 255);
+}
+.text {
+  display: flex;
+  justify-content: center;
+}
+.item {
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
 .count {
   display: flex;
   justify-content: center;
 }
-.green {
+.gren {
   color: green;
 }
 .yellow {
@@ -36,4 +42,8 @@ body {
 }
 .red {
   color: red;
+}
+#reset {
+  position: relative;
+  left: 46rem;
 }
